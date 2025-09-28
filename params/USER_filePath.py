@@ -13,8 +13,8 @@ path_input = '/home/dimeng/caid3/linker_long.fasta'
 path_protTrans = '/home/dimeng/project/domain_linker/data/caid/features/protTrans'
 
 '''
-path_input = ''
-path_protTrans = ''
+path_input = '/home/dimeng/website/linker_pred/media/query/3594a9f5-092f-4224-8cbc-32bc20cf5d26.fasta'
+path_protTrans = '/home/dimeng/website/linker_pred/media/result/3594a9f5-092f-4224-8cbc-32bc20cf5d26/embedding/protTrans'
 
 '''
 2.Output folder
@@ -25,4 +25,4 @@ an example:
 ---------------------
 path_output = '/home/dimeng/caid3/punch_linker_output'
 '''
-path_output = ''
+path_output = '/home/dimeng/website/linker_pred/media/result/3594a9f5-092f-4224-8cbc-32bc20cf5d26/pred'
