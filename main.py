@@ -48,7 +48,7 @@ if __name__ == "__main__":
     print('Using device:', device)
     
     # model_pth = os.path.join(path_output, f'trained_model/{featureType}/{model_name}.pth')
-    list_modelInfo_protTrans = [{'model_name':f'{paramH.netNames[1][6:]}_protTrans.pth_f{i}', 'net_name': paramH.netNames[1], 'lr':paramH.lr, 'dropout':paramH.dropout, 'featureType': paramH.dict_featureType[2]}  for i in range(1, 6)]
+    list_modelInfo_protTrans = [{'model_name':f'cv20_filter_cc5_{paramH.netNames[1][6:]}_protTrans.pth_f{i}', 'net_name': paramH.netNames[1], 'lr':paramH.lr, 'dropout':paramH.dropout, 'featureType': paramH.dict_featureType[2]}  for i in range(1, 6)]
     
     list_modelInfo = list_modelInfo_protTrans
     models = generate_models(list_modelInfo)
