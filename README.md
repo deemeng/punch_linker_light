@@ -26,7 +26,7 @@ Note,
 #### Installing
 * Pull the Docker image from  <a href="https://hub.docker.com/repository/docker/dimeng851/punch_linker_light/tags">DockerHub</a>
   ```sh
-  docker pull dimeng851/punch_linker_light:v3
+  docker pull dimeng851/punch_linker_light:v4
   ```
 
 #### Executing program
@@ -43,7 +43,7 @@ Note,
   --mount type=bind,source=[PATH_TO_INPUT_FASTA],target=/punch_linker/data/input.fasta \
   --mount type=bind,source=[PATH_TO_PROTTRANS],target=/punch_linker/data/protTrans \
   --mount type=bind,source=[PATH_OUTPUT],target=/punch_linker/output \
-  dimeng851/punch_linker_light:v3
+  dimeng851/punch_linker_light:v4
   ```
   > 
   >An example:
@@ -54,7 +54,7 @@ Note,
   --mount type=bind,source=/Users/deemeng/Downloads/data/linker/linker.fasta,target=/punch_linker/data/input.fasta \
   --mount type=bind,source=/Users/deemeng/Downloads/data/linker/protTrans,target=/punch_linker/data/protTrans \
   --mount type=bind,source=/Users/deemeng/Downloads/data/linker/output,target=/punch_linker/output \
-  dimeng851/punch_linker_light:v3
+  dimeng851/punch_linker_light:v4
   ```
 * Find the results in **OUTPUT** folder.
 
